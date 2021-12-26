@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiple Choice Quiz using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <div>
+
+         <div id="infobox">
+            <hr>
+            <div id="heading">Instructions :</div>
+            <hr>
+            <p>1) Total 5 number of questions.</p>
+            <p>2) You can't exit from the quiz while you're solving.</p>
+            <p>3) All questions are not compulsory.</p>
+            <p>4) Each question has 1 mark.</p><br>
+            <input type="button" name="btn1" value="Start Quiz" id="Startbtn">
+         </div>
+
+       <div id="inner-div" class="quiz">
+
+
+           <div>
+             <h2 class="question">Question Here</h2>
+           </div>
+
+
+          <ul>
+          <li id="ans">
+            <input type="radio" name="answer" id="opt1" class="answer">
+            <label for="opt1" id="option1">Answer Here</label>
+          </li>
+
+          <li id="ans">
+           <input type="radio" name="answer" id="opt2" class="answer">
+          <label for="opt2" id="option2">Answer Here</label>
+          </li>
+
+          <li id="ans">
+           <input type="radio" name="answer" id="opt3" class="answer">
+           <label for="opt3" id="option3">Answer Here</label>
+          </li>
+
+          <li id="ans">
+           <input type="radio" name="answer" id="opt4" class="answer">
+           <label for="opt4" id="option4">Answer Here</label><br>
+          </li>
+        </ul>
+
+        <!-- <div>
+            <img src="Right.jpg" class="check" id="checkicon">
+            <img src="Wrong.png" class="wrong" id="wrongicon">
+        </div> -->
+        <input type="button" name="btn" value="Submit" id="submit">
+
+     </div>
+     <div id="showscore" class="scorearea"></div>
+   </div>
+     <script src="Script.js" type="text/javascript"></script>
+  </body>
+</html>

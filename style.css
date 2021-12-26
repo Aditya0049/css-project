@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Condensed&display=swap');
+
+body{
+  background-color:#7DF9FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* --------------------------------- Quiz Box ----------------------------- */
+#inner-div{
+  width: 40vw;
+  background-color:#fff;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#inner-div h2{
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem 0;
+}
+
+#inner-div li{
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  list-style-type: none;
+}
+
+.quiz{
+  display: none;
+}
+
+/* ---------------------------- Cursor Style ------------------------------*/
+input{
+  cursor: pointer;
+}
+
+/* ---------------------------- Submit Button ---------------------------- */
+#submit{
+  padding: 1rem 3rem;
+  outline: none;
+  font-size: 2rem;
+  font-size: 400;
+  display: block;
+  margin: auto;
+  border: none;
+  text-transform: uppercase;
+  background-color: #74b9ff;
+  margin-top: 4rem;
+  width:100%;
+}
+
+#submit:hover{
+  background-color: #007bff;
+}
+
+/* -------------------- Start Button ---------------------------- */
+#Startbtn{
+position: absolute;
+transform: translate(-50%,-50%);
+font-size: 25px;
+margin-left: 500px;
+padding: 25px 40px;
+outline: none;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+text-transform: uppercase;
+background-color:#74b9ff;
+}
+
+#Startbtn:hover{
+  background-color: #007bff;
+}
+
+/* ------------------------ Information Box ---------------------------- */
+#infobox{
+  width: 40vw;
+  height: 35vh;
+  background-color:#fff;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+}
+
+.info{
+  display: none;
+}
+
+#heading{
+  font-size: 45px;
+}
+
+/* ------------------- Showing Score ----------------------------*/
+#showscore{
+  width: 40vw;
+  height: 39vh;
+  background-color:#ffffe0;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+
+ #showscore h3{
+   font-size: 3rem;
+   text-align: center;
+}
+
+.scorearea{
+    display: none;
+}
+
+/* --------------------- Play Agin button ------------------------ */
+.btn{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  margin-left: 500px;
+  padding: 25px 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color:#50c878;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #228B22;
+}
+
+ /* ------------- Style for Options ---------------------- */
+#ans{
+  background-color:#ECFFDC;
+  border: 4px;
+  border-radius: 8px;
+}
+
+#ans:hover{
+  background-color:#C1E1C1;
+}
+
+.answer{
+  width:25px;
+  height: 25px;
+}
+
+/* ---------------------- correct answers box --------------------- */
+#correctans{
+  width: 40vw;
+  height: 50vh;
+  background-color:#fff;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+#correctans h3{
+  font-size: 20px;
+}
+
+.showans{
+  margin-bottom: 40px;
+  font-size: 25px;
+   margin-left: -50px;
+}
